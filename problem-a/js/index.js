@@ -3,7 +3,7 @@
 /** Basic Types */
 
 //Define a new variable `motto` for the value "The iSchool is my school"
-var motto = 'The iSchool is my school';
+let motto = 'The iSchool is my school';
 
 //Log out the motto
 console.log(motto);
@@ -11,7 +11,7 @@ console.log(motto);
 //Define a variable `mottoLength` that stores the length of the motto.
 //Use the `.length` property
 //Log out the length.
-var mottolength = motto.length;
+let mottolength = motto.length;
 console.log(mottolength);
 
 //Use the `indexOf()` String method to see if the word "cool" is in the string.
@@ -38,7 +38,7 @@ console.log((motto.length / mottolength * 100).toFixed(2) + "%");
 //Create an array `numbers` that contains these 10 numbers:
 //    1 4 1 5 9 2 6 5 3 5
 //Log out the array.
-var numbers = [1, 4, 1, 5, 9, 2, 6, 5, 3, 5];
+let numbers = [1, 4, 1, 5, 9, 2, 6, 5, 3, 5];
 console.log(numbers);
 
 //Use bracket notation to change the `4` in the array to a `4.2`.
@@ -64,7 +64,7 @@ console.log(numbers.sort()[5]);
 //with properties:
 //  `x` (coordinate) of 30, `y` of 50, `width` of 100, `height` of 50
 //Log out the rectangle object
-var rect = {x:30, y:50, width:100, height:50};
+let rect = {x:30, y:50, width:100, height:50};
 console.log(rect);
 
 //Log out the x- and y- coordinates of the rectangle (its location). Your output 
@@ -85,13 +85,13 @@ console.log(rect.height * rect.width);
 //  `cy` of 43,
 //  `radius` equal to the LAST value in the (sorted) `numbers` array.
 //Log out the circle
-var circle = {cx:34, cy:43, radius:numbers.reverse()[0]};
+let circle = {cx:34, cy:43, radius:numbers.reverse()[0]};
 console.log(circle);
 
 //Create an array `shapes` that represents a list of shapes. The array should
 //contain the rectangle and the circle objects defined above.
 //Log out the variable. Be sure to inspect it in the developer console!
-var shapes = [rect, circle];
+let shapes = [rect, circle];
 console.log(shapes);
 
 //Add a new ANONYMOUS object (e.g., one passed in directly without its own
